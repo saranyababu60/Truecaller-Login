@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: APMtest.APMtest.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 51.225 s <<< FAILURE! - in APMtest.APMtest.LoginTest
+basicTest(APMtest.APMtest.LoginTest)  Time elapsed: 24.796 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2088607e-a591-45ae-b13a-8397e78c1c97, findElement {using=id, value=com.truecaller:id/next}]
+Capabilities {appium:appActivity: .ui.TruecallerInit, appium:appPackage: com.truecaller, appium:autoDissmissAlerts: true, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: .ui.TruecallerInit, appPackage: com.truecaller, autoDissmissAlerts: true, autoGrantPermissions: true, deviceName: 3c6aaa8f0006, noReset: false, platformName: android, platformVERSION: 10, skipUnlock: true}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi 7A, appium:deviceName: 3c6aaa8f0006, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1440, appium:deviceUDID: 3c6aaa8f0006, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 2, appium:platformVERSION: 10, appium:platformVersion: 10, appium:skipUnlock: true, appium:statBarHeight: 55, appium:takesScreenshot: true, appium:viewportRect: {height: 1289, left: 0, top: 55, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 2088607e-a591-45ae-b13a-8397e78c1c97
+	at APMtest.APMtest.LoginTest.basicTest(LoginTest.java:53)
+
